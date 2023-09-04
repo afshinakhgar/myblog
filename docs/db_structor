@@ -1,0 +1,11 @@
+// adding user database structor
+users {
+	id integer(11) pk increments unique
+	first_name varchar(256) null
+	last_name varchar(256)
+	mobile varchar(128) unique
+	password varchar(256) null
+	remember_token varchar(256) null
+	created_at datetime null
+	updated_at datetime null
+}
