@@ -2,7 +2,7 @@
 https://www.toptal.com/developers/gitignore/api/phpstorm,composer,git
 # Edit at 
 https://www.toptal.com/developers/gitignore?templates=phpstorm,composer,git
-
+.env
 ### Composer ###
 composer.phar
 /vendor/

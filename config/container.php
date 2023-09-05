@@ -6,7 +6,7 @@ use Slim\Factory\AppFactory;
 
 return [
     'settings' => function () {
-        return require __DIR__ . '../config/settings.php';
+        return require __DIR__ . '/settings.php';
     },
 
     App::class => function (ContainerInterface $container) {
